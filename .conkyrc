@@ -1,6 +1,5 @@
 alignment bottom_middle
 background yes 
-#was no ^
 #border_width 1
 cpu_avg_samples 2
 default_color white
@@ -43,7 +42,6 @@ TEXT
 ${color1}    [OpenBSD ${kernel}] ${color} \
 ${color1}[cpu] ${cpubar 7,90}${color} \
 ${color1}[ram] ${membar 7,90}${color} \
-#${color1}[swap ${swap}]${color} \
 ${color1}[${fs_free /home} free]${color} \
 #${color1}[charge: ${apm_battery_life}]${color} \
 ${color1}[up: ${uptime}]${color} \
