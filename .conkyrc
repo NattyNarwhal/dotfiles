@@ -1,0 +1,50 @@
+alignment bottom_middle
+background yes 
+#was no ^
+#border_width 1
+cpu_avg_samples 2
+default_color white
+default_outline_color white
+default_shade_color white
+#draw_borders no
+border_inner_margin 0
+border_outer_margin 0
+draw_graph_borders yes
+draw_outline no
+draw_shades no
+use_xft yes
+xftfont Terminus :bold:size=12
+gap_x 0 
+gap_y 0
+net_avg_samples 2
+#no_buffers yes
+double_buffer yes
+out_to_console no
+extra_newline no
+own_window no
+# was yes ^
+own_window_type normal
+own_window_transparent no
+own_window_colour C3A4C6
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+minimum_size 220 5
+maximum_width 1920
+#own_window_class Conky
+#own_window_type desktop
+update_interval 1.0
+uppercase no
+use_spacer none
+show_graph_scale no
+show_graph_range no
+#color1 FFBF00
+color1 000000
+
+TEXT
+${color1}    [OpenBSD ${kernel}] ${color} \
+${color1}[cpu] ${cpubar 7,90}${color} \
+${color1}[ram] ${membar 7,90}${color} \
+#${color1}[swap ${swap}]${color} \
+${color1}[${fs_free /home} free]${color} \
+#${color1}[charge: ${apm_battery_life}]${color} \
+${color1}[up: ${uptime}]${color} \
+${color1}[${time %e %B %H:%M} ]${font}    \
