@@ -12,13 +12,13 @@ sticky yes
 
 # just window stuff
 borderwidth 2
-color activeborder "#FFBF00"
-color inactiveborder "#FFBF00"
-color selfont "#FFBF00"
-color font "#FFBF00"
-color menubg "#000000"
-color menufg "#FFBF00"
-olor urgencyborder "#FFFFFF"
+color activeborder "#FCF8C2"
+color inactiveborder "#EDEBC4"
+color selfont "#000000"
+color font "#000000"
+color menubg "#FFFCD5"
+color menufg "#FCF8C2"
+color urgencyborder "#FFFFFF"
 color ungroupborder "#FFFFFF"
 gap 0 20 0 0
 
