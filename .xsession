@@ -1,12 +1,20 @@
 #!/bin/sh
 
+# Set fonts for OpenBSD
+
 xset +fp /usr/local/lib/X11/fonts/terminus/
 xset fp rehash
 xrdb -merge ~/.Xresources
-#xsetroot -solid "#C1EE98"
+
+# Wallpaper
+# current: http://static.simpledesktops.com/uploads/desktops/2012/11/18/Obliquo.png
+
 feh --bg-fill wall/Obliquo.png
-#conky
+
+# Status bar
+
 xmobar&
 
-#evilwm -mask1 mod4 -mask2 mod4
+# Window manager
+
 cwm
