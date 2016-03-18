@@ -1,8 +1,8 @@
-Config { font = "Clean"
+Config { font = "-*-clean-medium-r-*-*-12-*-*-*-*-*-*-*"
        , borderColor = "black"
-       , border = TopB
-       , bgColor = "black"
-       , fgColor = "grey"
+       , border = NoBorder
+       , bgColor = "#667788"
+       , fgColor = "white"
        , position = Top
        , allDesktops = True
        , lowerOnStart = True
