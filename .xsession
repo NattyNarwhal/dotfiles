@@ -4,7 +4,8 @@
 
 xset +fp /usr/local/lib/X11/fonts/terminus/
 xset fp rehash
-xrdb -merge ~/.Xresources
+# not needed but in case
+xrdb -merge ~/.Xdefaults
 
 # Wallpaper
 # current: http://static.simpledesktops.com/uploads/desktops/2012/11/18/Obliquo.png
